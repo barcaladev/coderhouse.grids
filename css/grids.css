@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #0c0c0c;
+    color: white;
+    font-size: 62.5%;
+}
+
+.title{
+    padding: 100px 0 10px 0;
+    text-align: center;
+    font-size: 6.3rem;
+    font-weight: bold;
+}
+
+.title-container{
+    grid-column: 1 / -1;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle-container{
+    grid-column: 1 / 6;
+}
+
+.header{
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 9rem 0 9rem 0;
+}
+
+.header-grid{
+    grid-column: 1/6;
+}
+
+.easy{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.easy-grid{
+    grid-column: 1/6;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    width: 90%;
+    max-width: 1350px;
+    margin: 1.6rem auto;
+    gap: 10px;
+}
+
+.arts-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    grid-gap: 1rem;
+    width: 90%;
+    max-width: 160rem;
+    margin: 1.6rem auto;
+    padding: 10rem 2rem 2rem 2rem;
+    grid-template-rows: 1fr 0.01fr;
+    grid-template-areas:
+    "spinetta calamaro cerati pity charly"
+    "spinettan calamaron ceratin pityn charlyn";
+}
+
+.arts-grid p{
+    padding: 1rem 0 0 0;
+}
+
+.btsp{
+    grid-area: spinettan;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btac{
+    grid-area: calamaron;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btgc{
+    grid-area: ceratin;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btpa{
+    grid-area: pityn;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btcg{
+    grid-area: charlyn;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.article img{
+    max-width: 100%;
+}
+
+.article{
+    height: 44rem;
+    width: 29rem;
+}
+
+.cuadro1{
+    background-color: #c9cba3;
+    border-radius: 5rem;
+}
+.cuadro2{
+    background-color: #ffe1a8;
+    border-radius: 5rem;
+}
+.cuadro3{
+    background-color: #e26d5c;
+    border-radius: 5rem;
+}
+.cuadro4{
+    background-color: #723d46;
+    border-radius: 5rem;
+}
+.cuadro5{
+    background-color: #472d30;
+    border-radius: 5rem;
+}
+
+
+.despedida{
+    font-size: 2rem;
+    text-align: center;
+    padding: 7rem 9rem;
+}
+
+footer{
+    background-color: #050505;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.foot1 a{
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+.foot1 p{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.ig{
+    padding-top: 1.5rem;
+}
+.foot1 img{
+    width: 20px;
+}
+
+.copyfooter{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.tituloarts{
+    text-align: center;
+    font-size: 80px;
+}
+
+#tspinetta{
+    color: #c9cba3;
+}
+#tcalamaro{
+    color: #ffe1a8;
+}
+#tcerati{
+    color: #e26d5c;
+}
+#tpity{
+    color: #723d46;
+}
+#tcharly{
+    color: #472d30;
+}
+
+.bibliografia{
+    text-align: center;
+    margin: 200px 200px;
+    font-size: 25px;
+}
+
+.index{
+    margin: 20px
+}
+
+.index img{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav li{
+    margin-left: 10px;
+
+}
+
+.nav li a{
+    display: block;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+#spinetta{
+    background-color: #c9cba3;
+}
+#calamaro{
+    background-color: #ffe1a8;
+}
+#cerati{
+    background-color: #e26d5c;
+}
+#pity{
+    background-color: #723d46;
+}
+#charly{
+    background-color: #472d30;
+}
+
+.albumesspt{
+    height: 390px;
+    width: 390px;
+}
+
+.alb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alb1 img{
+    margin: 0 1rem 0 40rem;
+}
+.alb1 p{
+    font-size: 25px;
+    margin: 90px 300px 90px 40px;
+    text-align: center;
+}
+
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.reverse img{
+    margin: 0 40rem 0 1rem;
+}
+.reverse p{
+    font-size: 25px;
+    margin: 90px 40px 90px 300px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 468px) {
+    .title{
+        font-size: 4.4rem;
+        padding: 70px 0 0 0;
+    }
+    
+    .subtitle{
+        font-size: 1.4rem;
+    }
+    
+    .header{
+        font-size: 1.6rem;
+        padding: 2rem 1rem;
+        text-align: justify;
+    }
+
+    .easy{
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+    }
+
+    .arts-grid{
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .article{
+        height: 25rem;
+        width: 15rem;
+    }
+
+    .despedida{
+        font-size: 1.6rem;
+        padding: 1rem 2.9rem;
+        text-align: justify;
+    }
+
+@media only screen and (max-width: 468px){
+    .index img{
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .nav{
+        top: 0;
+        right: 0;
+        flex-flow: wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tituloarts{
+        font-size: 4.4rem;
+        padding: 7rem 0 0 0;
+    }
+
+    .bibliografia{
+        font-size: 1.6rem;
+        margin: 6rem 2.9rem;
+        text-align: justify;
+    }
+
+    .alb1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alb1 img{
+        margin: 0 2rem 0 2rem;
+    }
+
+    .alb1 p{
+        font-size: 1.6rem;
+        padding: 0;
+        margin: 2rem 2.9rem;
+    }
+
+    .reverse{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .reverse img{
+        margin: 0 2rem 0 2rem;
+    }
+    
+    .reverse p{
+        font-size: 1.6rem;
+        padding: 0;
+        margin: 2rem 2.9rem;
+    }
+
+    .albumesspt{
+        height: 20rem;
+        width: 20rem;
+        border: 2px solid white;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+}
