@@ -5,11 +5,18 @@
 html{
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
+    background-color: #0c0c0c;
 }
 body{
-    background-color: #0c0c0c;
     color: white;
-    font-size: 62.5%;
+}
+
+h1{
+    color: white;
+}
+
+nav{
+    background-color: #0c0c0c;
 }
 
 .title{
@@ -17,10 +24,7 @@ body{
     text-align: center;
     font-size: 6.3rem;
     font-weight: bold;
-}
-
-.title-container{
-    grid-column: 1 / -1;
+    color: white;
 }
 
 .subtitle{
@@ -28,40 +32,25 @@ body{
     font-size: 2rem;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
-}
-
-.subtitle-container{
-    grid-column: 1 / 6;
+    color: white;
 }
 
 .header{
     text-align: center;
     font-size: 3.2rem;
-    padding: 9rem 0 9rem 0;
-}
-
-.header-grid{
-    grid-column: 1/6;
+    padding: 11rem 16rem;
+    color: white;
 }
 
 .easy{
     padding: 20px;
     font-size: 2rem;
     text-align: center;
+    color: white;
 }
 
-.easy-grid{
-    grid-column: 1/6;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
-    width: 90%;
-    max-width: 1350px;
-    margin: 1.6rem auto;
-    gap: 10px;
+.container-header{
+    background-color: #0c0c0c;
 }
 
 .arts-grid{
@@ -79,7 +68,7 @@ body{
 }
 
 .arts-grid p{
-    padding: 1rem 0 0 0;
+    padding: 2.5rem 0 0 0;
 }
 
 .btsp{
@@ -121,6 +110,12 @@ body{
     background-color: #c9cba3;
     border-radius: 5rem;
 }
+
+.article img:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
 .cuadro2{
     background-color: #ffe1a8;
     border-radius: 5rem;
@@ -143,6 +138,9 @@ body{
     font-size: 2rem;
     text-align: center;
     padding: 7rem 9rem;
+    background-color: #0c0c0c;
+    color: white;
+    margin: 0px;
 }
 
 footer{
@@ -296,11 +294,11 @@ footer{
 @media only screen and (max-width: 468px) {
     .title{
         font-size: 4.4rem;
-        padding: 70px 0 0 0;
+        padding: 70px 4.6rem 0 4.6rem;
     }
     
     .subtitle{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     
     .header{
@@ -328,9 +326,10 @@ footer{
 
     .despedida{
         font-size: 1.6rem;
-        padding: 1rem 2.9rem;
+        padding: 1rem;
         text-align: justify;
     }
+}
 
 @media only screen and (max-width: 468px){
     .index img{
