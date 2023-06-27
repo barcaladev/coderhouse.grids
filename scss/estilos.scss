@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0c0c0c;
+}
+
+div{
+    background-color: #0c0c0c;
+}
+
+.title{
+    padding: 100px 0 10px 0;
+    text-align: center;
+    font-size: 6.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 11rem 16rem;
+    color: white;
+}
+
+.easy{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.arts-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    grid-gap: 1rem;
+    width: 90%;
+    max-width: 160rem;
+    margin: 1.6rem auto;
+    padding: 10rem 2rem 2rem 2rem;
+    grid-template-rows: 1fr 0.01fr;
+    grid-template-areas:
+    "spinetta calamaro cerati pity charly"
+    "spinettan calamaron ceratin pityn charlyn";
+    p{
+        padding: 2.5rem 0 0 0;
+    }
+}
+
+.btsp{
+    grid-area: spinettan;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btac{
+    grid-area: calamaron;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btgc{
+    grid-area: ceratin;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btpa{
+    grid-area: pityn;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btcg{
+    grid-area: charlyn;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.article{
+    height: 44rem;
+    width: 29rem;
+    img{
+        max-width: 100%;
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.1s;
+        }
+    }
+}
+
+.cuadro1{
+    background-color: #c9cba3;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+.cuadro2{
+    background-color: #ffe1a8;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+.cuadro3{
+    background-color: #e26d5c;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+.cuadro4{
+    background-color: #723d46;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+.cuadro5{
+    background-color: #472d30;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+
+.despedida{
+    font-size: 2rem;
+    text-align: center;
+    padding: 7rem 9rem;
+    background-color: #0c0c0c;
+    color: white;
+    margin: 0px;
+}
+
+footer{
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    a{
+        display: inline-block;
+        margin-left: 10px;
+        padding-bottom: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    p{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    img{
+        width: 20px;
+    }
+}
+
+.ig{
+    padding-top: 1.5rem;
+}
+
+.copyfooter{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.tituloarts{
+    text-align: center;
+    font-size: 7rem;
+}
+
+#tspinetta{
+    color: #c9cba3;
+}
+#tcalamaro{
+    color: #ffe1a8;
+}
+#tcerati{
+    color: #e26d5c;
+}
+#tpity{
+    color: #723d46;
+}
+#tcharly{
+    color: #472d30;
+}
+
+.bibliografia{
+    text-align: center;
+    margin: 200px 200px;
+    font-size: 25px;
+    color: white;
+}
+
+.index{
+    margin: 20px;
+    img{
+        width: 70px;
+        height: 40px;
+        border-radius: 20px;
+        position: fixed;
+    }
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    li{
+        margin-left: 10px;
+    }
+    li a{
+        display: block;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        margin-top: 10px;
+    }
+}
+
+#spinetta{
+    background-color: #c9cba3;
+}
+#calamaro{
+    background-color: #ffe1a8;
+}
+#cerati{
+    background-color: #e26d5c;
+}
+#pity{
+    background-color: #723d46;
+}
+#charly{
+    background-color: #472d30;
+}
+
+.albumesspt{
+    height: 390px;
+    width: 390px;
+}
+
+.alb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        margin: 0 1rem 0 40rem;
+        border: 2px solid white;
+    }
+    p{
+        font-size: 25px;
+        margin: 90px 300px 90px 40px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    img{
+        margin: 0 40rem 0 1rem;
+        border: 2px solid white;
+    }
+    p{
+        font-size: 25px;
+        margin: 90px 40px 90px 300px;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .title{
+        font-size: 4.4rem;
+        padding: 70px 4.6rem 0 4.6rem;
+    }
+    
+    .subtitle{
+        font-size: 1.6rem;
+    }
+    
+    .header{
+        font-size: 1.6rem;
+        padding: 2rem 1rem;
+        text-align: justify;
+    }
+
+    .easy{
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+    }
+
+    .arts-grid{
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .article{
+        height: 25rem;
+        width: 15rem;
+    }
+
+    .despedida{
+        font-size: 1.6rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .index img{
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .nav{
+        top: 0;
+        right: 0;
+        flex-flow: wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tituloarts{
+        font-size: 4.4rem;
+        padding: 7rem 0 0 0;
+    }
+
+    .bibliografia{
+        font-size: 1.6rem;
+        margin: 6rem 2.9rem;
+        text-align: justify;
+    }
+    
+    .alb1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin: 0 2rem 0 2rem;
+        }
+        p{
+            font-size: 1.6rem;
+            padding: 0;
+            margin: 2rem 2.9rem;
+        }
+    }
+
+    .reverse{
+        display: flex;
+        flex-flow: column;
+        img{
+            margin: 0 2rem 0 2rem;
+        }
+        p{
+            font-size: 1.6rem;
+            padding: 0;
+            margin: 2rem 2.9rem;
+        }
+    }
+
+    .albumesspt{
+        height: 20rem;
+        width: 20rem;
+        border: 1px solid white;
+        flex-direction: column;
+    }
+}
