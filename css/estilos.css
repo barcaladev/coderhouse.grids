@@ -322,6 +322,7 @@ footer img {
   .article {
     height: 25rem;
     width: 15rem;
+    margin: 4rem 0 0 0;
   }
   .despedida {
     font-size: 1.6rem;
