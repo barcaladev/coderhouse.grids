@@ -1,3 +1,6 @@
+$colorprincipal: #0c0c0c;
+$colorsecundario: #ffffff;
+
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +9,11 @@
 html{
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
-    background-color: #0c0c0c;
+    background-color: $colorprincipal;
 }
 
 div{
-    background-color: #0c0c0c;
+    background-color: $colorprincipal;
 }
 
 .title{
@@ -18,7 +21,7 @@ div{
     text-align: center;
     font-size: 6.3rem;
     font-weight: bold;
-    color: white;
+    color: $colorsecundario;
 }
 
 .subtitle{
@@ -26,21 +29,21 @@ div{
     font-size: 2rem;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: $colorsecundario;
 }
 
 .header{
     text-align: center;
     font-size: 3.2rem;
     padding: 11rem 16rem;
-    color: white;
+    color: $colorsecundario;
 }
 
 .easy{
     padding: 20px;
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: $colorsecundario;
 }
 
 .arts-grid{
@@ -61,29 +64,25 @@ div{
 }
 
 .btsp{
+    text-align: center;
+    font-size: 1.6rem;
     grid-area: spinettan;
-    text-align: center;
-    font-size: 1.6rem;
 }
-.btac{
+.btac--aceptar{
+    @extend .btsp;
     grid-area: calamaron;
-    text-align: center;
-    font-size: 1.6rem;
 }
 .btgc{
     grid-area: ceratin;
-    text-align: center;
-    font-size: 1.6rem;
+    @extend .btsp;
 }
 .btpa{
     grid-area: pityn;
-    text-align: center;
-    font-size: 1.6rem;
+    @extend .btsp;
 }
 .btcg{
     grid-area: charlyn;
-    text-align: center;
-    font-size: 1.6rem;
+    @extend .btsp;
 }
 
 .article{
@@ -98,38 +97,35 @@ div{
     }
 }
 
+@mixin cuadros($br, $b){
+    border-radius: $br;
+    border: $b;
+}
+
 .cuadro1{
     background-color: #c9cba3;
-    border-radius: 5rem;
-    border: 2px solid white;
+    @include cuadros(5rem, 2px solid white)
 }
 .cuadro2{
     background-color: #ffe1a8;
-    border-radius: 5rem;
-    border: 2px solid white;
+    @include cuadros(5rem, 2px solid white)
 }
 .cuadro3{
     background-color: #e26d5c;
-    border-radius: 5rem;
-    border: 2px solid white;
-}
+    @include cuadros(5rem, 2px solid white)}
 .cuadro4{
     background-color: #723d46;
-    border-radius: 5rem;
-    border: 2px solid white;
-}
+    @include cuadros(5rem, 2px solid white)}
 .cuadro5{
     background-color: #472d30;
-    border-radius: 5rem;
-    border: 2px solid white;
-}
+    @include cuadros(5rem, 2px solid white)}
 
 .despedida{
     font-size: 2rem;
     text-align: center;
     padding: 7rem 9rem;
-    background-color: #0c0c0c;
-    color: white;
+    background-color: $colorprincipal;
+    color: $colorsecundario;
     margin: 0px;
 }
 
@@ -141,14 +137,15 @@ footer{
         display: inline-block;
         margin-left: 10px;
         padding-bottom: 10px;
-        color: white;
+        color: $colorsecundario;
         text-decoration: none;
+        font-size: 4rem;
     }
     p{
         display: inline-block;
         width: 100%;
         text-align: center;
-        color: white;
+        color: $colorsecundario;
     }
     img{
         width: 20px;
@@ -189,7 +186,7 @@ footer{
     text-align: center;
     margin: 200px 200px;
     font-size: 25px;
-    color: white;
+    color: $colorsecundario;
 }
 
 .index{
@@ -278,7 +275,7 @@ footer{
         font-size: 25px;
         margin: 90px 40px 90px 300px;
         text-align: center;
-        color: white;
+        color: $colorsecundario;
     }
 }
 

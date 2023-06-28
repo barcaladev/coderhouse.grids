@@ -18,7 +18,7 @@ div {
   text-align: center;
   font-size: 6.3rem;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
 }
 
 .subtitle {
@@ -26,21 +26,21 @@ div {
   font-size: 2rem;
   padding: 20px;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #ffffff;
 }
 
 .header {
   text-align: center;
   font-size: 3.2rem;
   padding: 11rem 16rem;
-  color: white;
+  color: #ffffff;
 }
 
 .easy {
   padding: 20px;
   font-size: 2rem;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .arts-grid {
@@ -58,34 +58,26 @@ div {
   padding: 2.5rem 0 0 0;
 }
 
-.btsp {
-  grid-area: spinettan;
+.btsp, .btcg, .btpa, .btgc, .btac--aceptar {
   text-align: center;
   font-size: 1.6rem;
+  grid-area: spinettan;
 }
 
-.btac {
+.btac--aceptar {
   grid-area: calamaron;
-  text-align: center;
-  font-size: 1.6rem;
 }
 
 .btgc {
   grid-area: ceratin;
-  text-align: center;
-  font-size: 1.6rem;
 }
 
 .btpa {
   grid-area: pityn;
-  text-align: center;
-  font-size: 1.6rem;
 }
 
 .btcg {
   grid-area: charlyn;
-  text-align: center;
-  font-size: 1.6rem;
 }
 
 .article {
@@ -135,7 +127,7 @@ div {
   text-align: center;
   padding: 7rem 9rem;
   background-color: #0c0c0c;
-  color: white;
+  color: #ffffff;
   margin: 0px;
 }
 
@@ -148,14 +140,15 @@ footer a {
   display: inline-block;
   margin-left: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
+  font-size: 4rem;
 }
 footer p {
   display: inline-block;
   width: 100%;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 footer img {
   width: 20px;
@@ -199,7 +192,7 @@ footer img {
   text-align: center;
   margin: 200px 200px;
   font-size: 25px;
-  color: white;
+  color: #ffffff;
 }
 
 .index {
@@ -293,7 +286,7 @@ footer img {
   font-size: 25px;
   margin: 90px 40px 90px 300px;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 468px) {
