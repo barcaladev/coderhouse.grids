@@ -45,7 +45,7 @@ div {
 
 .arts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
   grid-gap: 1rem;
   width: 90%;
   max-width: 160rem;
@@ -58,13 +58,15 @@ div {
   padding: 2.5rem 0 0 0;
 }
 
-.btsp, .btcg, .btpa, .btgc, .btac--aceptar {
+.btsp, .btcg, .btpa, .btgc, .btac {
   text-align: center;
   font-size: 1.6rem;
+  color: #ffffff;
+  text-decoration: none;
   grid-area: spinettan;
 }
 
-.btac--aceptar {
+.btac {
   grid-area: calamaron;
 }
 
@@ -132,7 +134,7 @@ div {
 }
 
 footer {
-  background-color: #000000;
+  background-color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -142,7 +144,7 @@ footer a {
   padding-bottom: 10px;
   color: #ffffff;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 1.2rem;
 }
 footer p {
   display: inline-block;

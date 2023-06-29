@@ -1,5 +1,6 @@
 $colorprincipal: #0c0c0c;
 $colorsecundario: #ffffff;
+$colorfooter: black;
 
 *{
     margin: 0;
@@ -48,7 +49,7 @@ div{
 
 .arts-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
     grid-gap: 1rem;
     width: 90%;
     max-width: 160rem;
@@ -66,9 +67,11 @@ div{
 .btsp{
     text-align: center;
     font-size: 1.6rem;
+    color: $colorsecundario;
+    text-decoration: none;
     grid-area: spinettan;
 }
-.btac--aceptar{
+.btac{
     @extend .btsp;
     grid-area: calamaron;
 }
@@ -130,7 +133,7 @@ div{
 }
 
 footer{
-    background-color: #000000;
+    background-color: $colorfooter;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     a{
@@ -139,7 +142,7 @@ footer{
         padding-bottom: 10px;
         color: $colorsecundario;
         text-decoration: none;
-        font-size: 4rem;
+        font-size: 1.2rem;
     }
     p{
         display: inline-block;
