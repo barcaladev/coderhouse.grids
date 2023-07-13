@@ -173,9 +173,20 @@ footer img {
   text-align: center;
 }
 
+.banner {
+  width: 100%;
+  height: 1%;
+}
+.banner img {
+  width: 100%;
+  height: 112%;
+}
+
 .tituloarts {
   text-align: center;
   font-size: 7rem;
+  text-shadow: 0 0 4px white;
+  text-decoration: overline;
 }
 
 #tspinetta {
@@ -365,8 +376,8 @@ footer img {
 }
 @media only screen and (max-width: 1600px) {
   .tituloarts {
-    font-size: 5.5rem;
-    padding: 8rem 0 0 0;
+    font-size: 6rem;
+    padding: 1rem 0 0 0;
   }
   .bibliografia {
     font-size: 2rem;
@@ -418,7 +429,7 @@ footer img {
   }
   .tituloarts {
     font-size: 3.9rem;
-    padding: 7rem 0 0 0;
+    padding: 2rem 0 0 0;
   }
   .bibliografia {
     font-size: 1.6rem;
