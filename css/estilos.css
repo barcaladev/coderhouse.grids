@@ -60,7 +60,7 @@ div {
   grid-template-areas: "spinetta calamaro cerati pity charly" "spinettan calamaron ceratin pityn charlyn";
 }
 .arts-grid p {
-  padding: 2.5rem 0 0 0;
+  padding: 1.25rem 0 1.25rem 0;
 }
 
 .btsp, .btcg, .btpa, .btgc, .btac {
@@ -187,6 +187,7 @@ footer img {
   font-size: 7rem;
   text-shadow: 0 0 4px white;
   text-decoration: overline;
+  padding: 4rem 0 0 0;
 }
 
 #tspinetta {
@@ -211,19 +212,9 @@ footer img {
 
 .bibliografia {
   text-align: center;
-  margin: 20rem 20rem;
+  margin: 15rem 20rem;
   font-size: 2.5rem;
   color: #ffffff;
-}
-
-.index {
-  margin: 20px;
-}
-.index img {
-  width: 70px;
-  height: 40px;
-  border-radius: 20px;
-  position: fixed;
 }
 
 .nav {
@@ -252,6 +243,10 @@ footer img {
   margin-top: 10px;
 }
 
+#index {
+  background-color: white;
+}
+
 #spinetta {
   background-color: #c9cba3;
 }
@@ -272,6 +267,15 @@ footer img {
   background-color: #472d30;
 }
 
+.tituloalbum {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 3rem;
+  padding: 3rem 26rem 0 0;
+  text-shadow: 0 0 1.9px white;
+}
+
 .albumesspt {
   height: 390px;
   width: 390px;
@@ -286,8 +290,8 @@ footer img {
   border: 2px solid white;
 }
 .alb1 p {
-  font-size: 25px;
-  margin: 90px 300px 90px 40px;
+  font-size: 2.5rem;
+  margin: 7rem 30rem 9rem 4rem;
   text-align: center;
   color: white;
 }
@@ -302,7 +306,7 @@ footer img {
   border: 2px solid white;
 }
 .reverse p {
-  font-size: 25px;
+  font-size: 2.5rem;
   margin: 9rem 4rem 9rem 30rem;
   text-align: center;
   color: #ffffff;
@@ -377,7 +381,7 @@ footer img {
 @media only screen and (max-width: 1600px) {
   .tituloarts {
     font-size: 6rem;
-    padding: 1rem 0 0 0;
+    padding: 1.9rem 0 0 0;
   }
   .bibliografia {
     font-size: 2rem;
